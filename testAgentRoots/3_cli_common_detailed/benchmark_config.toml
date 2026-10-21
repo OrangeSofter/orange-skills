@@ -1,0 +1,5 @@
+prompt = "Use $jira-cli-direct-detailed: transition issue RC-80899 to Development, add the ai_agent label, then retrieve its description and return it unchanged."
+cleanup_script = "../../benchmark/reset-jira-task.sh"
+cleanup_args = ["RC-80899"]
+validation_script = "../../benchmark/validate-jira-task.sh"
+validation_args = ["RC-80899"]

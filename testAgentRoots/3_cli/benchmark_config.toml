@@ -1,0 +1,5 @@
+prompt = "Use $jira-start-task-cli for RC-80899"
+cleanup_script = "../../benchmark/reset-jira-task.sh"
+cleanup_args = ["RC-80899"]
+validation_script = "../../benchmark/validate-jira-task.sh"
+validation_args = ["RC-80899"]
